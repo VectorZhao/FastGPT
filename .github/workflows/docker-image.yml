@@ -37,7 +37,7 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           platforms: linux/amd64,linux/arm64
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/FastGPT:${{ github.ref_name }}
-            ${{ secrets.DOCKER_USERNAME }}/FastGPT:latest
+            ${{ secrets.DOCKER_USERNAME }}/fastgpt:${{ github.ref_name }}
+            ${{ secrets.DOCKER_USERNAME }}/fastgpt:latest
 
 
